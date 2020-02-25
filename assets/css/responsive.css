@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 1750) {
+
+}
+    
+/* Medium Layout: 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 786px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .text-sm-right {
+        text-align: left!important;
+    }
+}
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Layout: 320px */
+@media only screen and (min-width: 320px) and (max-width: 479px) {}
+

@@ -1,0 +1,434 @@
+/*=====Google Fonts=====*/
+/*=====Roboto Font=====*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap');
+/*=====Roboto Slab Fonts=====*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap');
+/*======Dosis Font======*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700&display=swap');
+
+/*=====Basic CSS=====*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1170px;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+.section_gap {
+    padding: 60px 0;
+}
+
+/*=====Start Header Area Here=====*/
+.header_area {
+    background-color: #00a4d3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+.header_top_area {
+    padding-top: 40px;
+    margin-left: 54px;
+    border-bottom: 1px solid;
+    color: #80d2e9;
+    padding-bottom: 24px;
+}
+.header_top_area a {
+    color: #e8f4f9;
+}
+.contact_area a:first-child {
+    margin-left: 0px;
+}
+.header_top_right a:last-child {
+    margin-right: 0px;
+}
+.navbar ul {
+    margin-left: 20px;
+}
+.navbar ul li a {    
+    color: #e8f4f9;
+    font-weight: 500;
+}
+.navbar button i {
+    color: #fff;
+}
+.navbar ul li a.active {
+        color: #fff;
+}
+.navbar ul li a:hover {
+        color: #fff;
+}
+/*=====End Header Area Here=====*/
+
+/*=====Start Slider Area Here=====*/
+.slider_area {
+    background-image: url(../../assets/img/cloud-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-size: cover;
+    background-color: #00a4d3;
+    padding-bottom: 80px;
+    position: relative;
+}
+.slider_area:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: 46%;
+    background-image: url(../../assets/img/kid-bg.png);
+    background-repeat: no-repeat;
+    display: inline-block;    
+}
+.pt_170 {
+    padding-top: 170px;
+}
+.slider_content h1 {
+    color: #00a4d3;
+    font-size: 72px;
+    font-weight: 800;
+    width: 100%
+}
+.slider_content h3 {
+    color: #00a4d3;
+    font-size: 48px;
+    margin-top: 23px;
+}
+/* .content_button button {
+    background-color: #00a4d3;
+    color: #e8f4f9;
+    padding: 10px 26px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 40px;    
+    margin-left: 400px;
+} */
+/*=====End Slider Area Here=====*/
+
+/*=====Start Welcome Area Here=====*/
+.welcome_area {
+    background-image: url(../../assets/img/wel-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome {
+    color: #fff;
+}
+.welcome h3 {
+    font-size: 30px;
+}
+.welcome h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.welcome p {
+    color: #d4eaf4;
+    margin-top: 40px;
+    text-align: justify;
+}
+.button button {
+    padding: 10px 30px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #00a4d3;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* .welcome_img img {
+    margin: 20px 0;
+} */
+/*=====End Welcome Area Here=====*/
+
+/*=====Start Featured Area Here=====*/
+.feature_area h2 {
+    font-size: 36px;
+    color: #00a4d3;
+    margin-bottom: 10px;
+}
+
+.feature_area p {
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+i {
+    display: inline-block;
+}
+.ourfeature_text_bg {
+    background-color: #fafafa;
+    padding: 32px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+/*=====End Featured Area Here=====*/
+
+/*=====Start School Area Here=====*/
+.school_area {
+    background-image: url(../../assets/img/school-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.child_area {
+    padding: 50px 0;
+}
+.child_content {
+    color: #fff;
+    padding-top: 40px;
+}
+.child_content h2 {
+    font-weight: 700;
+}
+.child_content p {
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.service_part_1 {
+    padding-bottom: 26px;
+}
+.multi {
+    padding-left: 26px;
+}
+.art {
+    padding-left: 22px;
+}
+.teachers {
+    padding-left: 26px;
+}
+.achive {
+    padding-left: 26px;
+}
+/*=====End School Area Here=====*/
+
+/*=====Start Teacher Area Here=====*/
+.teachers_area {
+    padding: 50px 0;
+}
+.teacher_content h2 {
+    color: #00a4d3;
+    font-weight: 700;
+}
+.teacher_content p {
+    font-weight: 500;
+    padding-top: 20px;
+}
+.image_teacher {
+    padding-top: 50px;
+}
+.image_teacher_2 {
+    padding-top: 30px;
+}
+.image_title p {
+    position: absolute;
+    content: "";
+    top: 222px;
+    /* left: 50px; */
+    color: #fff;
+    background-color: #00a4d3;
+}
+.image_title p span {
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.card {
+    border: none;
+}
+/*=====End Teacher Area Here=====*/
+
+/*=====Start Mickel Area Here=====*/
+.mickel_area {
+    background-image: url(../../assets/img/mickel-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mickel_content {
+    color: #fff;
+}
+.mickel_content h3 {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 600;
+}
+/*=====End Mickel Area Here=====*/
+
+/*=====Start Notice Area Here=====*/
+.notice_area {
+    padding: 50px 0;
+}
+.notice h2 {
+    color: #22b0d9;
+    font-weight: 700;
+}
+.notice_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    padding: 40px 0;
+}
+.notice_menu ul li {
+    display: inline-block;
+    padding-left: 50px;
+}
+.notice_menu ul li:first-child {
+    padding-left: 0;
+}
+.notice_menu ul li:hover {
+    color: #00a4d3;
+    cursor: pointer;
+}
+.card-body {
+    padding: 25px 0;
+}
+.date {
+    color: #9b9b9b;
+}
+.card-text {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 14px;
+}
+.i_size i {
+    font-size: 60px;
+}
+.school i {
+    color: #2cc990;
+}
+.board i {
+    color: #e6aa3c;
+}
+.office i {
+    color: #2c82c9;
+}
+.admission i {
+    color: #9f0088;
+}
+.i_size h4 {
+    color: #3db8dc;
+    padding-top: 18px;
+}
+/*=====End Notice Area Here=====*/
+
+/*=====Start Fotter Area Here=====*/
+.footer_area {
+    background-image: url(../../assets/img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;    
+}
+.sign_up_area {
+    padding-top: 280px;
+}
+.sign h6 {
+    color: #00a4d3;
+    font-weight: 700;
+}
+.form-group input {
+    display: inline-block;
+    width: 400px;
+    margin-right: 10px;
+    padding: 22px 22px;
+    border-color: #66c8e5;
+}
+.form-group button {
+    margin-top: -6px;
+    padding: 10px 20px;
+}
+.form-group button {
+    background-color: #00a4d3;
+}
+.address {
+    padding-top: 60px;
+}
+.address_area h6 {
+    color: #00a4d3;
+    font-weight: 700;
+}
+.address_area p {
+    color: #000;
+}
+.tele {
+    padding-top: 36px;
+}
+.tele p span {
+    color: #00a4d3;
+    font-weight: 600;
+    font-size: 16px;
+}
+.quick h6 {
+    color: #00a4d3;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.quick ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.quick ul li {
+    color: #000;
+}
+
+.instagram_area h6 {
+    color: #00a4d3;
+    font-weight: 700;
+}
+.social_icon a {
+    color: #00a4d3;
+    font-size: 36px;
+    padding-right: 26px;
+}
+.social_icon a {
+    display: inline-block;
+}
+.social_icon a:last-child {
+    padding-right: 0;
+}
+.copyright_full {
+    padding: 40px 0 220px;
+}
+.copyright p {
+    color: #00a4d3;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/*=====End Fotter Area Here=====*/
